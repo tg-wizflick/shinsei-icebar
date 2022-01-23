@@ -29,3 +29,37 @@ body {
   font-size: 120px;
 }
 
+/* 中央寄せ */
+.margin-center {
+  margin: 0 auto;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-45 {
+  margin-top: 45px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
