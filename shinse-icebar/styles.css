@@ -2,3 +2,30 @@ body {
   color: #707070;
   font-family: sans-serif;
 }
+
+/* テキストサイズ */
+.text40 {
+  font-size: 40px;
+}
+.text50 {
+  font-size: 50px;
+}
+.text55 {
+  font-size: 55px;
+}
+.text60 {
+  font-size: 60px;
+}
+.text65 {
+  font-size: 65px;
+}
+.text70 {
+  font-size: 70px;
+}
+.text80 {
+  font-size: 80px;
+}
+.text120 {
+  font-size: 120px;
+}
+
