@@ -34,7 +34,11 @@ body {
   display: flex;
   text-align: center
 }
+
 /* 中央寄せ */
+.wrap{
+  text-align: center;
+}
 .margin-center {
   margin: 0 auto;
 }
