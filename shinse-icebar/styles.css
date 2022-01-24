@@ -29,6 +29,11 @@ body {
   font-size: 120px;
 }
 
+.page-title {
+  font-size: 120px;
+  display: flex;
+  text-align: center
+}
 /* 中央寄せ */
 .margin-center {
   margin: 0 auto;
