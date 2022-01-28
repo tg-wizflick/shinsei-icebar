@@ -1,40 +1,247 @@
-body {
+.body-font {
   color: #707070;
   font-family: sans-serif;
 }
 
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+.header-box{
+  position: relative;
+}
+.header-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.heart img {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.heart{
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#back_to_top {
+  margin: 0 auto;
+  position: fixed;
+  right: 2%;
+  bottom: 20px;
+  z-index: 999;
+  transition: 0.3s ease;
+  opacity: 0;
+}
+#back_to_top img {
+  width: 30px;
+  height: 165px;
+}
+#back_to_top.sc {
+  opacity: 1;
+}
+
+
+#back_to_top button {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: none;
+  background: none;
+  outline: 0;
+  display: block;
+}
+
+#back_to_top button:hover {
+  opacity: 0.5;
+}
+.block {
+  width: 100%;
+  margin: 0 auto;
+}
+.block-right-img {
+  display: flex;  
+}
+.block-left-img {
+  display: flex;  
+  margin-top: 20px;
+}
+/* セクション2 お酒かけるアイスの説明 */
+.block-rightimg {
+  display: flex;  
+  justify-content: space-between;
+}
+.block-rightimg-item1 {
+  width: 45%;
+}
+.block-rightimg-item1 p:nth-child(1) {
+  font-size: 32px;
+  font-weight: bold;
+}
+.block-rightimg-item1 p:nth-child(2) {
+  font-size: 26px;
+  line-height: 45px;
+}
+.block-rightimg-item2 {
+  width: 45%;
+}
+.block-rightimg-item2 img {
+  width: 100%;
+}
+
+.block-leftimg {
+  display: flex;  
+  justify-content: space-between;
+}
+.block-leftimg-item1 {
+  width: 45%;
+}
+.block-leftimg-item1 p:nth-child(1) {
+  font-size: 32px;
+  font-weight: bold;
+}
+.block-leftimg-item1 p:nth-child(2) {
+  font-size: 26px;
+  line-height: 45px;
+}
+.block-leftimg-item2 {
+  width: 45%;
+}
+.block-leftimg-item2 img {
+  width: 100%;
+}
+
+/* 中央の画像 */
+.centralimg{
+position: relative;
+}
+.centralimg-item{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%); /* 追記 */
+  -webkit-transform: translate(-50%, -50%); /* 追記 */
+  transform: translate(-50%, -50%); /* 追記 */
+  font-size: 26px;
+  color: #707070;
+  letter-spacing: 5px;
+}
+
+/* スプリット型 */
+.block-sprit{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;  
+  justify-content: space-between;
+}
+.block-left{
+  width: 45%;
+}
+.block-left-item1 img{
+width: 100%;
+}
+.block-left-item2 p:nth-child(1) {
+  font-size: 23px;
+  font-weight: bold;
+}
+.block-left-item2 p:nth-child(2) {
+  font-size: 26px;
+  line-height: 45px;
+}
+
+.block-right{
+  width: 45%;
+}
+.block-right-item1 img{
+  width: 100%;
+  }
+  .block-right-item2 p:nth-child(1) {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .block-right-item2 p:nth-child(2) {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+/* 購入はこちら */
+.block-leftimg-item1-1{
+  font-weight: bold;
+  line-height: 40px;
+  line-height: 50px;
+  }
+.block-leftimg-item1-1 p:nth-child(1){
+  line-height: 40px;
+  }  
+.block-leftimg-item1-1 p:nth-child(2){
+  text-decoration: line-through;
+  }  
+
+.block-leftimg-item1-1 p:nth-child(3) {
+color:#FC0808 ;
+  }
+.form-button{
+  width: 60%;
+  max-width: 500px;
+  height: 80px;
+  padding-top: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+  font-size: 32px;
+  font-stretch: ultra-expanded;
+  border-radius: 67px;
+  background-color:#EFB354 ;
+}
+
+/* お届けについて */
+.block-leftimg-item1-2{
+  line-height: 40px;
+}
 /* テキストサイズ */
-.text40 {
-  font-size: 40px;
+.text13 {
+  font-size: 13px;
 }
-.text50 {
-  font-size: 50px;
+.text23 {
+  font-size: 23px;
 }
-.text55 {
-  font-size: 55px;
+.text24 {
+  font-size: 24px;
 }
-.text60 {
-  font-size: 60px;
+.text26 {
+  font-size: 26px;
 }
-.text65 {
-  font-size: 65px;
+.text28 {
+  font-size: 28px;
 }
-.text70 {
-  font-size: 70px;
+.text21 {
+  font-size: 21px;
+}
+.text23 {
+  font-size: 23px;
 }
 .text80 {
   font-size: 80px;
 }
-.text120 {
-  font-size: 120px;
+.text48 {
+  font-size: 48px;
 }
 
 .page-title {
-  font-size: 120px;
-  display: flex;
+  font-size: 40px;
   text-align: center
 }
+
+
+
+
 /* 中央寄せ */
+.wrap{
+  text-align: center;
+}
 .margin-center {
   margin: 0 auto;
 }
@@ -46,6 +253,9 @@ body {
 }
 .mt-30 {
   margin-top: 30px;
+}
+.mt-35 {
+  margin-top: 35px;
 }
 .mt-40 {
   margin-top: 40px;
@@ -67,4 +277,27 @@ body {
 }
 .mt-100 {
   margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .block-rightimg {
+    flex-direction: column;
+  }
+  .block-rightimg-item1 {
+    width: 100%;
+  }
+  .block-leftimg {
+    flex-direction: column-reverse;
+  }
+  .block-leftimg-item1 {
+    width: 100%;
+  }
+  .container{
+    width: 90%;
+  }
+  .heart img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+  }
 }
