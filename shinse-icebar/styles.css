@@ -61,6 +61,28 @@ width: 100%;
   width: 100%;
 }
 
+.block-leftimg {
+  display: flex;  
+  justify-content: space-between;
+}
+.block-leftimg-item1 {
+  width: 45%;
+}
+.block-leftimg-item1 p:nth-child(1) {
+  font-size: 32px;
+  font-weight: bold;
+}
+.block-leftimg-item1 p:nth-child(2) {
+  font-size: 26px;
+  line-height: 45px;
+}
+.block-leftimg-item2 {
+  width: 45%;
+}
+.block-leftimg-item2 img {
+  width: 100%;
+}
+
 /* 中央の画像 */
 .centralimg{
 position: relative;
