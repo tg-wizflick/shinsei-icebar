@@ -113,6 +113,35 @@ width: 100%;
     font-size: 26px;
     line-height: 45px;
   }
+/* 購入はこちら */
+.block-leftimg-item1-1{
+  font-weight: bold;
+  line-height: 40px;
+  line-height: 50px;
+  }
+.block-leftimg-item1-1 p:nth-child(1){
+  line-height: 40px;
+  }  
+.block-leftimg-item1-1 p:nth-child(2){
+  text-decoration: line-through;
+  }  
+
+.block-leftimg-item1-1 p:nth-child(3) {
+color:#FC0808 ;
+  }
+.form-button{
+  width: 60%;
+  max-width: 500px;
+  height: 80px;
+  padding-top: 16px;
+  padding-bottom: 25px;
+  color: #fff;
+  font-size: 32px;
+  font-stretch: ultra-expanded;
+  border-radius: 67px;
+  background-color:#EFB354 ;
+}
+
 /* テキストサイズ */
 .text13 {
   font-size: 13px;
