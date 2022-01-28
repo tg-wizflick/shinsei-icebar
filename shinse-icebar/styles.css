@@ -142,6 +142,10 @@ color:#FC0808 ;
   background-color:#EFB354 ;
 }
 
+/* お届けについて */
+.block-leftimg-item1-2{
+  line-height: 40px;
+}
 /* テキストサイズ */
 .text13 {
   font-size: 13px;
