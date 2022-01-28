@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="body-font">
+<!-- ヘッダー画像 -->
+
+<div id="back_to_top">
+  <button class="js-back_to_top"><img src="./セクション1トップ/arrow.png" alt=""></button>
+</div>
 
 
 <!-- ヘッダー画像 -->
@@ -115,6 +120,26 @@
       copyright © YAMAMOTO HONKE,Inc. All Rights reserved.
     </footer>
   </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>  
+    //go top
+  $(function() {
+    var topBtn = $('#back_to_top');    
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        topBtn.addClass('sc');
+      } else {
+        topBtn.removeClass('sc');
+      }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+    $('body,  html').animate({
+      scrollTop: 0
+    },   500);
+    return false;
+    });
+  });
+  </script>
 </body>
 </html>
