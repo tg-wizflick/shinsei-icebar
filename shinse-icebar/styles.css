@@ -271,3 +271,26 @@ color:#FC0808 ;
 .mt-100 {
   margin-top: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .block-rightimg {
+    flex-direction: column;
+  }
+  .block-rightimg-item1 {
+    width: 100%;
+  }
+  .block-leftimg {
+    flex-direction: column-reverse;
+  }
+  .block-leftimg-item1 {
+    width: 100%;
+  }
+  .container{
+    width: 90%;
+  }
+  .heart img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+  }
+}
