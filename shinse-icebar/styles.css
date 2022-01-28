@@ -77,6 +77,42 @@ position: relative;
   letter-spacing: 5px;
 }
 
+/* スプリット型 */
+.block-sprit{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;  
+  justify-content: space-between;
+}
+.block-left{
+  width: 45%;
+}
+.block-left-item1 img{
+width: 100%;
+}
+.block-left-item2 p:nth-child(1) {
+  font-size: 23px;
+  font-weight: bold;
+}
+.block-left-item2 p:nth-child(2) {
+  font-size: 26px;
+  line-height: 45px;
+}
+
+.block-right{
+  width: 45%;
+}
+.block-right-item1 img{
+  width: 100%;
+  }
+  .block-right-item2 p:nth-child(1) {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .block-right-item2 p:nth-child(2) {
+    font-size: 26px;
+    line-height: 45px;
+  }
 /* テキストサイズ */
 .text13 {
   font-size: 13px;
