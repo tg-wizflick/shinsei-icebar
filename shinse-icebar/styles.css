@@ -303,6 +303,16 @@ color:#FC0808 ;
 .page-title-item4{
   font-size: 25px;
 }
+.block-sprit{
+flex-direction: column;
+}
+.block-left{
+  width: 100%;
+}
+.block-right{
+  width: 100%;
+  margin-top: 15px;
+}
 .block-left-img{
   margin-top: 0px;
 }
