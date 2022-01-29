@@ -300,6 +300,9 @@ color:#FC0808 ;
     margin-left: 10px;
     width: 100px;
   }
+.block-left-img{
+  margin-top: 0px;
+}
 .br{
   display: none;
 }
