@@ -15,8 +15,7 @@
 }
 .header-top {
   width: 100%;
-  height: 527px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .heart img {
   width: 200px;
@@ -76,6 +75,7 @@
 .sc2-bc{
   background-color: black;
   color: #fff;
+  padding: 30px;
 }
 /* セクション2 お酒かけるアイスの説明 */
 .block-rightimg {
@@ -123,11 +123,13 @@
 }
 .textdesign{
   border-bottom: 1px solid #fff;
-	display: inline-block;
+    padding: 0 50px;
+    display: inline-block;
 }
 
 .sc3-bc{
   background-color: #AB874B;
+  padding: 30px;
 }
 /* 中央の画像 */
 .centralimg{
@@ -187,15 +189,17 @@ width: 100%;
 
   .sc4-bc{
     background-color: #F9F3DD;
+    padding: 50px;
   }
   .container2{
     width: 90%;
-    margin: 5px 5px 5px 5px;
+    margin: 0 auto;
   }
   .sc4-bc-top{
-    color: #707070;;
+    color: #707070;
     background-color: #FDFDF8;
     margin: auto;
+    padding: 30px;
   }
 /* 購入はこちら */
 .block-leftimg-item1-1{
@@ -264,6 +268,10 @@ width: 100%;
   font-size: 40px;
   text-align: center
 }
+.pagetitle{
+  text-align: center;
+  padding: 20px;
+}
 
 
 /* 中央寄せ */
@@ -309,8 +317,13 @@ width: 100%;
 .mt-100 {
   margin-top: 100px;
 }
+.footer-padding{
+padding: 10px;
+}
+.sp{
+  display: none;
+}
 
-/*  
 @media screen and (max-width: 768px) {
   .block-rightimg {
     flex-direction: column-reverse;
@@ -350,7 +363,6 @@ width: 100%;
     margin-left: 10px;
     width: 100px;
   }
-}
 .page-title-item4{
   font-size: 25px;
 }
@@ -367,4 +379,23 @@ flex-direction: column;
 .block-left-img{
   margin-top: 0px;
 }
-*/
+.sc4-bc-top{
+  padding: 10px;
+}
+.container2{
+  width: auto;
+}
+.sc4-bc{
+  padding: 20px;
+}
+.sc3-bc{
+  padding: 10px;
+}
+.sc2-bc{
+  padding: 10px;
+}
+.sp{
+  display: block;
+}
+}
+
