@@ -79,7 +79,8 @@
 }
 /* セクション2 お酒かけるアイスの説明 */
 .block-rightimg {
-  display: flex;  
+  display: flex; 
+  align-items: center;
   justify-content: space-between;
 }
 .block-rightimg-item1 {
@@ -90,8 +91,10 @@
   font-weight: bold;
 }
 .block-rightimg-item1 p:nth-child(2) {
-  font-size: 26px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 30px;
+  padding: 0 70px;
 }
 .block-rightimg-item2 {
   width: 45%;
@@ -103,6 +106,7 @@
 .block-leftimg {
   display: flex;  
   justify-content: space-between;
+  align-items: center;
 }
 .block-leftimg-item1 {
   width: 45%;
@@ -112,8 +116,10 @@
   font-weight: bold;
 }
 .block-leftimg-item1 p:nth-child(2) {
-  font-size: 26px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 30px;
+  padding: 0 70px;
 }
 .block-leftimg-item2 {
   width: 45%;
@@ -323,6 +329,76 @@ padding: 10px;
 .sp{
   display: none;
 }
+
+/*================================
+	scアニメ
+================================*/
+.fadein, .fadein02, .fadein03 {
+	opacity : 0;
+	transition : all 0.8s;
+}
+.fadein.show, .fadein02.show, .fadein03.show { opacity : 1; }
+
+
+.upfade {
+	opacity : 0;
+	transform : translate(0, 50px);
+	transition : all 500ms;
+}
+.upfade.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+
+.downfade {
+	opacity : 0;
+	transform : translate(0, -50px);
+	transition : all 500ms;
+}
+.downfade.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+
+
+.fade {
+	opacity : 0;
+	transition : all 0.8s;
+}
+.fade.active {
+	opacity : 1;
+}
+
+
+.sclinWrap {
+	height: auto;
+	overflow: hidden;
+}
+
+.sclin_right {
+	opacity : 0;
+	transform : translate(50px, 0);
+	transition : all 500ms;
+}
+.sclin_right.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+
+
+.sclin_left {
+	opacity : 0;
+	transform : translate(-50px, 0);
+	transition : all 500ms;
+}
+.sclin_left.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .block-rightimg {
