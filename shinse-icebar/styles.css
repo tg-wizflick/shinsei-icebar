@@ -1,19 +1,21 @@
 .body-font {
-  color: #707070;
-  font-family: sans-serif;
+  color: #202020;
+  font-family: serif;
+  font-weight: bold;
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
+
 
 .header-box{
   position: relative;
 }
 .header-top {
   width: 100%;
-  height: 300px;
+  height: 527px;
   object-fit: cover;
 }
 .heart img {
@@ -70,6 +72,11 @@
   display: flex;  
   margin-top: 20px;
 }
+
+.sc2-bc{
+  background-color: black;
+  color: #fff;
+}
 /* セクション2 お酒かけるアイスの説明 */
 .block-rightimg {
   display: flex;  
@@ -114,7 +121,14 @@
 .block-leftimg-item2 img {
   width: 100%;
 }
+.textdesign{
+  border-bottom: 1px solid #fff;
+	display: inline-block;
+}
 
+.sc3-bc{
+  background-color: #AB874B;
+}
 /* 中央の画像 */
 .centralimg{
 position: relative;
@@ -132,6 +146,9 @@ position: relative;
 }
 
 /* スプリット型 */
+.font-color{
+  color:#202020;
+}
 .block-sprit{
   width: 100%;
   margin: 0 auto;
@@ -145,7 +162,7 @@ position: relative;
 width: 100%;
 }
 .block-left-item2 p:nth-child(1) {
-  font-size: 23px;
+  font-size: 33px;
   font-weight: bold;
 }
 .block-left-item2 p:nth-child(2) {
@@ -160,7 +177,7 @@ width: 100%;
   width: 100%;
   }
   .block-right-item2 p:nth-child(1) {
-    font-size: 23px;
+    font-size: 33px;
     font-weight: bold;
   }
   .block-right-item2 p:nth-child(2) {
@@ -168,6 +185,18 @@ width: 100%;
     line-height: 45px;
   }
 
+  .sc4-bc{
+    background-color: #F9F3DD;
+  }
+  .container2{
+    width: 90%;
+    margin: 5px 5px 5px 5px;
+  }
+  .sc4-bc-top{
+    color: #707070;;
+    background-color: #FDFDF8;
+    margin: auto;
+  }
 /* 購入はこちら */
 .block-leftimg-item1-1{
   font-weight: bold;
@@ -178,14 +207,10 @@ width: 100%;
   line-height: 40px;
   }  
 .block-leftimg-item1-1 p:nth-child(2){
-  text-decoration: line-through;
+  text-decoration:double line-through red;
   }  
-
-.block-leftimg-item1-1 p:nth-child(3) {
-color:#FC0808 ;
-  }
 .form-button{
-  width: 60%;
+  width: 90%;
   max-width: 500px;
   height: 80px;
   padding-top: 16px;
@@ -193,10 +218,13 @@ color:#FC0808 ;
   color: #fff;
   font-size: 32px;
   font-stretch: ultra-expanded;
-  border-radius: 67px;
   background-color:#EFB354 ;
 }
 
+.sc5-bc{
+  background-color: #fff;
+  color: #202020;
+}
 /* お届けについて */
 .block-leftimg-item1-2{
   line-height: 40px;
@@ -223,19 +251,19 @@ color:#FC0808 ;
 .text23 {
   font-size: 23px;
 }
+.text60{
+  font-size: 60px;
+}
 .text80 {
   font-size: 80px;
 }
-.text48 {
-  font-size: 48px;
+.text40 {
+  font-size: 40px;
 }
-
 .page-title {
   font-size: 40px;
   text-align: center
 }
-
-
 
 
 /* 中央寄せ */
@@ -244,6 +272,9 @@ color:#FC0808 ;
 }
 .margin-center {
   margin: 0 auto;
+}
+.mt-10 {
+  margin-top: 10px;
 }
 .mt-15 {
   margin-top: 15px;
@@ -279,7 +310,7 @@ color:#FC0808 ;
   margin-top: 100px;
 }
 
-
+/*  
 @media screen and (max-width: 768px) {
   .block-rightimg {
     flex-direction: column-reverse;
@@ -336,6 +367,4 @@ flex-direction: column;
 .block-left-img{
   margin-top: 0px;
 }
-.br{
-  display: none;
-}
+*/
